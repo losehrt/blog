@@ -1,0 +1,9 @@
+<h2> Comments </h2>
+<!-- Render all comments form comments/_comments.html.erb -->
+<div id="comments">
+	<%= render post.comments %>
+</div>
+<div>
+  <!-- Render new comment form comments/_new.html.erb -->
+  <%= render "comments/new", post: post %>
+</div>
